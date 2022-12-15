@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
   }
+
   body{
     background-color: rgb(133, 134, 134);
     font-family: 'Kanit', sans-serif;
@@ -9,26 +10,20 @@
   .column {
     float: left;
     width: 50%;
-    
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
+
   img{
     height: 645px;
     width: 945px;
   }
   
-
-  h2{
-   font-family: 'Kanit' ,sans-serif;
-   margin-left: 225px;
-   color: white;
-  }
   aside {
     font-size: 25px;
   }
@@ -39,7 +34,6 @@
   }
   
   ul {
-  
     height: 50px;
       list-style-type: none;
       margin: 0;
@@ -47,8 +41,9 @@
       overflow: hidden;
       background-color: rgb(138, 145, 182);
     width: 100%;
-    
     }
+
+
     li {
         display: inline;
       }
@@ -70,6 +65,10 @@
         background-color: rgb(202, 202, 202);
         
       }
+
+
+
+
       input[type=text], select, textarea {
         width: 100%; /* Full width */
         padding: 12px; /* Some padding */ 
@@ -103,6 +102,20 @@
         background-color: rgb(138, 145, 182);
         padding: 20px;
       }
+
+
+
+      h1{
+        font-size: 80px;
+      color: rgb(255, 255, 255);
+      }
+
+      h2{
+        font-family: 'Kanit' ,sans-serif;
+        margin-left: 225px;
+        color: white;
+      }
+
       h3{ 
         font-size: 80px;
         color: white;
@@ -115,7 +128,4 @@
         font-size: 32px;
         color: white;
       }
-      h1{
-        font-size: 80px;
-      color: rgb(255, 255, 255);
-      }
+      

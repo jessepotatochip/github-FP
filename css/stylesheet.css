@@ -27,13 +27,15 @@
   h2{
    font-family: 'Kanit' ,sans-serif;
    margin-left: 225px;
+   color: white;
   }
   aside {
     font-size: 25px;
   }
 
   p{
-    font-size: 20px;
+    font-size: 24px;
+    color: rgb(255, 251, 251);
   }
   
   ul {
@@ -56,10 +58,11 @@
       
       li a {
         display: block;
-        color: rgb(7, 7, 7);
+        color: rgb(255, 254, 254);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        font-size: 20px;
       }
       
       /* Change the link color to #111 (black) on hover */
@@ -99,4 +102,9 @@
         border-radius: 5px;
         background-color: rgb(138, 145, 182);
         padding: 20px;
+      }
+      h3{ 
+        font-size: 80px;
+        color: white;
+        
       }
